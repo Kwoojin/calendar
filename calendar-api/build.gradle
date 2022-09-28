@@ -1,0 +1,11 @@
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+}
+
+task wrapper(type: Wrapper){
+    gradleVersion = '7.5'
+}
+
+tasks.register("prepareKotlinBuildScriptModel") {}
